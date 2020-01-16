@@ -1,9 +1,6 @@
 ## WTP Scraper
 
-A webscraper using beautifulsoup. Scrapes:
+A ecommerce website scraping tool, with backend written in Python using Flask, and front-end using HTML and JavaScript. 
 
-- weight and material from specific products 
-- photos
-
-from alibaba and displays it on a web page. Uses Flask for web development.
+Using a web interface, you can input the webpage to scrape, the product category, and the list of product features. The software outputs a spreadsheet with product descriptions and features, a picture of the downloads a picture of each product to a Zip file and offers the possibility to save the spreadsheet into Excel format.
 
