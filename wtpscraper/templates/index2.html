@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pandas Example</title>
+</head>
+<body>
+<h1>Welcome to our app</h1>
+    <table>
+        <tr>
+                <th>First name</th>
+                <th>Age</th>
+        </tr>
+        {% for k, v in ages.items() %}
+                <tr>
+                        <td>{{ k }}</td>
+                        <td>{{ v }}</td>
+                </tr>
+        {% endfor %}
+</table>
+</body>
+</html>
