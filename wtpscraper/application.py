@@ -18,7 +18,7 @@ import ast
 DEBUG = True
 application = Flask(__name__, static_url_path='/static')
 application.config.from_object(__name__)
-application.config['SECRET_KEY'] = '7d441f27d441f27567d441f2b6176a'
+application.config['SECRET_KEY'] = 'secretkey'
 
 config = configparser.ConfigParser()
 config.sections()
